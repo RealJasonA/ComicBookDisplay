@@ -80,6 +80,7 @@
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="Views\ComicBooks\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\ComicBooksController.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Models\ComicBook.cs" />
     <Compile Include="Models\Artist.cs" />
+    <Compile Include="Data\ComicBookRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -115,6 +117,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\site.css" />
+    <Content Include="Views\ComicBooks\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.10.2.min.map" />
